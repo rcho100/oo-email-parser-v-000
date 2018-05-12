@@ -5,8 +5,8 @@
 
 class EmailParser
 
-  def initialize(email_list)
-
+  def create(email_list)
+    self.new = email_list
   end
 
   def parse
