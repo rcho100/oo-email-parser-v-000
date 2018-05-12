@@ -15,7 +15,7 @@ attr_accessor :email_list
   # end
 
   def parse
-    @email_list.split(/,?\s?/)
+    @email_list.split(/,?\s/)
   end
 
 
