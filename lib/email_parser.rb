@@ -11,8 +11,9 @@ attr_accessor :email_list
   #
   # end
 
-  def self.create(email_list)
-    email_list.split
+  def initialize(email_list)
+    self.new
+    self.email_list = email_list
   end
 
   def parse
