@@ -17,6 +17,6 @@ attr_accessor :email_list
 
   def parse
     #binding.pry
-    @self.email_list.split(/,?\s/).uniq
+    self.email_list.split(/,?\s/).uniq
   end
 end
