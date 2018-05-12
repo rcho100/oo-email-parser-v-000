@@ -6,13 +6,13 @@
 class EmailParser
 attr_accessor :email_list
 
-  def initialize(email_list)
-    @email_list = email_list
-
-  end
+  # def initialize(email_list)
+  #   @email_list = email_list
+  #
+  # end
 
   def self.create(email_list)
-
+    email_list.split
   end
 
   def parse
