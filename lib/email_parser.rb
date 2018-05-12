@@ -12,7 +12,6 @@ attr_accessor :email_list
   # end
 
   def initialize(email_list)
-    self.new
     self.email_list = email_list
   end
 
