@@ -6,9 +6,9 @@ require "pry"
 class EmailParser
 attr_accessor :email_list
 
-  def initialize(email_list)
-    @email_list = email_list
-  end
+  # def initialize(email_list)
+  #   @email_list = email_list
+  # end
 
 #  check if this works
   def initialize(email_list)
@@ -17,6 +17,6 @@ attr_accessor :email_list
 
   def parse
     #binding.pry
-    @email_list.split(/,?\s/).uniq
+    @self.email_list.split(/,?\s/).uniq
   end
 end
