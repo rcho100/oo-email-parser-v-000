@@ -10,10 +10,10 @@ attr_accessor :email_list
     @email_list = email_list
   end
 
-  #check if this works
-  # def initialize(email_list)
-  #   self.email_list = email_list
-  # end
+#  check if this works
+  def initialize(email_list)
+    self.email_list = email_list
+  end
 
   def parse
     #binding.pry
