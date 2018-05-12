@@ -6,17 +6,16 @@ require "pry"
 class EmailParser
 attr_accessor :email_list
 
+  # the commented portion utilizes an instance variable instead of the self method
   # def initialize(email_list)
   #   @email_list = email_list
   # end
 
-#  check if this works
   def initialize(email_list)
     self.email_list = email_list
   end
 
   def parse
-    #binding.pry
     self.email_list.split(/,?\s/).uniq
   end
 end
